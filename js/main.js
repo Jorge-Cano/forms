@@ -26,11 +26,11 @@ function checkTwo()
     {
         if(myPassword.value==="Passw0rd1")
             {
-                myDiv2.innerHTML = "<div id='test2'style='background:#00ff2a'>Accepted , You Shall Pass => <a href='http://github.com/Jorge-Cano>WebSite</a></div>";
+                myDiv2.innerHTML = "<div id='test2'style='background:#00ff2a'>Accepted , You Shall Pass =><a href='https://github.com/Jorge-Cano/forms'>WebSite</a></div>";
             }
         else if(myPassword.value==="")
             {
-                myDiv2.innerHTML = "Do leave it blank dumbo";
+                myDiv2.innerHTML = "Dont leave it blank Dodo";
             }
         else
             {
