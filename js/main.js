@@ -6,7 +6,7 @@ var myInput    = document.getElementById("input"),
 
 function check()
     {
-        if(myInput.value==="taha")
+        if(myInput.value==="jorgey")
             {
                 "use strict";
 
@@ -15,25 +15,25 @@ function check()
             }
         else if(myInput.value==="")
             {
-                myDiv.innerHTML = "Username Cant Be Empty";
+                myDiv.innerHTML = "Username has to be filled out - no blanks home slice";
             }
         else
             {
-                myDiv.innerHTML = "Wrong Username";
+                myDiv.innerHTML = "eeeeeeeeeeh error";
             }
     };
 function checkTwo()
     {
-        if(myPassword.value==="tahatthh")
+        if(myPassword.value==="Passw0rd1")
             {
-                myDiv2.innerHTML = "<div id='test2'style='background:#00ff2a'>Accepted , You Can Enter To The <a href='http://taha2.bitballoon.com'>WebSite</a></div>";
+                myDiv2.innerHTML = "<div id='test2'style='background:#00ff2a'>Accepted , You Shall Pass => <a href='http://github.com/Jorge-Cano>WebSite</a></div>";
             }
         else if(myPassword.value==="")
             {
-                myDiv2.innerHTML = "Cant Be Empty";
+                myDiv2.innerHTML = "Do leave it blank dumbo";
             }
         else
             {
-                myDiv2.innerHTML = "InCorrect Password";
+                myDiv2.innerHTML = "InCorrecto Amigo, Otra Vez";
             }
     }
