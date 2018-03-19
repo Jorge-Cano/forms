@@ -19,7 +19,7 @@ function check()
             }
         else
             {
-                myDiv.innerHTML = "eeeeeeeeeeh error";
+                myDiv.innerHTML = "ehhhhhhhhhhh error";
             }
     };
 function checkTwo()
