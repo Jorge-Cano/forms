@@ -1,0 +1,84 @@
+#center
+{
+    text-align:center
+}
+#center input
+{
+    height:19px;
+    width:192px;
+    font-size:20px;
+    padding:10px;
+}
+#center button
+{
+    width:86px;
+    font-size:20px;
+    height:43px;
+    font-weight:bold;
+}
+#center #test
+{
+    background:red;
+    font-size:40px;
+    font-weight:bold;
+}
+
+
+
+#show
+{
+    text-align:center
+}
+#show input
+{
+    height:19px;
+    width:192px;
+    font-size:20px;
+    padding:10px;
+}
+#show button
+{
+    width:86px;
+    font-size:20px;
+    height:43px;
+    font-weight:bold;
+}
+#test2
+{
+    text-align:center;
+    background:red;
+    font-size:40px;
+    font-weight:bold;
+
+}
+
+#second
+{
+    z-index:2;
+    position:relative;
+    top:50px;
+    text-align:center
+}
+#second span
+{
+    color:white;
+    background:white;
+}
+.span1
+{
+    position:relative;
+    top:2px;
+}
+.span2
+{
+    position:relative
+}
+.span3
+{
+    position:relative;
+    bottom:2px
+}
+#show
+{
+    z-index:1
+}
