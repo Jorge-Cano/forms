@@ -6,12 +6,12 @@ var myInput    = document.getElementById("input"),
 
 function check()
     {
-        if(myInput.value==="jorgey")
+        if(myInput.value==="taha")
             {
                 "use strict";
 
-                hideDiv.innerHTML = "<div id='second' style='display:none'></div>";
-                myDiv.innerHTML = "<div id='test' style='background-color:#00ff2a'>Correct</div>";
+                hideDiv.innerHTML = "<div id='second'style='display:none'></div>";
+                myDiv.innerHTML = "<div id='test'style='background-color:#00ff2a'>Correct</div>";
             }
         else if(myInput.value==="")
             {
@@ -19,14 +19,14 @@ function check()
             }
         else
             {
-                myDiv.innerHTML = "Maybe you mispelled the username, please re-enter";
+                myDiv.innerHTML = "Wrong Username";
             }
     };
 function checkTwo()
     {
-        if(myPassword.value==="madmen")
+        if(myPassword.value==="tahatthh")
             {
-                myDiv2.innerHTML = "<div id='test2'style='background:#00ff2a'>Accepted , You Can Now Pass <a href='http://github.com/jorge-cano'>WebSite</a></div>";
+                myDiv2.innerHTML = "<div id='test2'style='background:#00ff2a'>Accepted , You Can Enter To The <a href='http://taha2.bitballoon.com'>WebSite</a></div>";
             }
         else if(myPassword.value==="")
             {
@@ -34,6 +34,6 @@ function checkTwo()
             }
         else
             {
-                myDiv2.innerHTML = "Are you brute forcing this password?";
+                myDiv2.innerHTML = "InCorrect Password";
             }
     }
